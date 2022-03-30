@@ -8,7 +8,7 @@ int encrypt(FILE *input, FILE *output, char *password);
 
 
 int main(int argc, char **argv){
-    char password[] = "vhugnskpteadnhgfkencjsfjjenc";
+    char password[] = "3";
     FILE *input = fopen(argv[1], "r"); 
     FILE *output = fopen(argv[2], "w"); 
 
